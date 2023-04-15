@@ -9,3 +9,6 @@ contract bse is ERC20 {
         _mint(msg.sender, 1000000000 * 10 ** decimals());
     }
 }
+
+
+Error if decim > 10 WTF
