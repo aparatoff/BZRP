@@ -15,3 +15,7 @@ Error if decim > 10 WTF
 
 or this wariant
 _mint(msg.sender, 1000000 * 6 ** decimals());
+
+or this way
+
+or this wariant _mint(msg.sender, 10000 * 0.06 ** decimals());
