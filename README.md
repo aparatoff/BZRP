@@ -11,7 +11,7 @@ contract bse is ERC20 {
 }
 
 
-Error if decim > 10 WTF
+Error if decim > 10 WTF=> command+V
 
 or this wariant
 _mint(msg.sender, 1000000 * 6 ** decimals());
